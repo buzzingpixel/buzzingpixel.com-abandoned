@@ -1,0 +1,28 @@
+{
+    "name": "DWG New Craft Project",
+    "description": "DWG New Craft Project",
+    "require": {
+        "php": ">=7.1",
+        "craftcms/cms": "^3.0.0",
+        "vlucas/phpdotenv": "^2.4.0",
+        "timostamm/text-truncation": "dev-master",
+        "michelf/php-smartypants": "^1.8",
+        "buzzingpixel/craft-static": "^1.0",
+        "mrclay/minify": "^3.0",
+        "php-di/php-di": "^6.0",
+        "verbb/super-table": "dev-craft-3",
+        "craftcms/redactor": "^2.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
