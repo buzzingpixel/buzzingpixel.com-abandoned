@@ -1,0 +1,17 @@
+{# The following variables are always available in a Craft template. Copy and
+paste the block of @var declarations to any template to reference them. And if
+you have the Symfony plugin installed and enabled for your project in PHPStorm,
+you'll get autocompletion and inspections #}
+
+{# @var \DateTime now #}
+{# @var string siteUrl #}
+{# @var string siteName #}
+{# @var \craft\web\View view #}
+{# @var \craft\web\twig\variables\CraftVariable craft #}
+{# @var \craft\elements\User currentUser #} {# will be null of no logged in user #}
+
+{% extends '_core/_LayoutMaster.twig' %}
+
+{% block content %}
+    404 page not found!
+{% endblock %}
